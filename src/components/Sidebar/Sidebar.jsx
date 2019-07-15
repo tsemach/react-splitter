@@ -18,45 +18,12 @@ const Sidebar = () => {
       <div className="sidebar-container"> 
       
         {/* <SplitterLayout primaryIndex="1" secondaryInitialSize="80" percentage="true"> */}
-<SplitterLayout primaryIndex={0}>
+ <SplitPane split="vertical" minSize={50} defaultSize={100}>
+{/* <SplitterLayout primaryIndex={0}> */}
   <div>1
     <p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
-                  <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
+                  
+                 
                   <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
                   <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
                   <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
@@ -113,7 +80,7 @@ const Sidebar = () => {
     <p>dddddddddddddddddddddddddddddddddddPane1</p><p>dddddddddddddddddddddddddddddddddddPane1</p>
 
   </div>
-</SplitterLayout>
+</SplitPane>
       </div>
     </React.Fragment>
     
